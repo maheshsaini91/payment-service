@@ -1,0 +1,35 @@
+{
+  "mappings": [
+    {
+      "name": "Get balance - sufficient funds (default payer)",
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/ledger/accounts/.*/balance"
+      },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "accountId": "550e8400-e29b-41d4-a716-446655440000",
+          "availableBalance": 1200.00,
+          "currency": "AED"
+        }
+      }
+    },
+    {
+      "name": "Execute transfer - success",
+      "request": {
+        "method": "POST",
+        "url": "/api/ledger/transfers"
+      },
+      "response": {
+        "status": 200,
+        "headers": { "Content-Type": "application/json" },
+        "jsonBody": {
+          "transferId": "txn-stub-001",
+          "status": "SUCCESS"
+        }
+      }
+    }
+  ]
+}

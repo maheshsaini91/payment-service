@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="dealshare-product-aggregator-service" />
+      <option name="name" value="dealshare-product-aggregator-service" />
+      <option name="url" value="https://dealshare-432995435807.d.codeartifact.ap-south-1.amazonaws.com/maven/product-aggregator-service/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dealshare-ab-library" />
+      <option name="name" value="dealshare-ab-library" />
+      <option name="url" value="https://dealshare-432995435807.d.codeartifact.ap-south-1.amazonaws.com/maven/ab-library/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="databuilderframework" />
+      <option name="name" value="databuilderframework" />
+      <option name="url" value="https://dealshare-432995435807.d.codeartifact.ap-south-1.amazonaws.com/maven/databuilderframework/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dealshare-jwt-library" />
+      <option name="name" value="dealshare-jwt-library" />
+      <option name="url" value="https://dealshare-432995435807.d.codeartifact.ap-south-1.amazonaws.com/maven/jwt-library/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common-dtos" />
+      <option name="name" value="common-dtos" />
+      <option name="url" value="https://dealshare-432995435807.d.codeartifact.ap-south-1.amazonaws.com/maven/common-dtos/" />
+    </remote-repository>
+  </component>
+</project>
